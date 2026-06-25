@@ -25,7 +25,7 @@ export default function Services() {
   return (
     <section
       id="servicios"
-      className="py-24 bg-white"
+      className="py-24 bg-slate-950"
     >
       <div className="max-w-7xl mx-auto px-6">
 
@@ -42,7 +42,7 @@ export default function Services() {
           {servicios.map((servicio, index) => (
             <div
               key={index}
-              className="bg-slate-50 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition"
+              className="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur hover:scale-105 transition duration-300"
             >
               <h3 className="text-2xl font-bold mb-4">
                 {servicio.titulo}

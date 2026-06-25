@@ -8,7 +8,7 @@ import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
-    <>
+    <div className="bg-slate-950 text-white">
       <Navbar />
       <Hero />
       <Services />
@@ -16,7 +16,7 @@ function App() {
       <Contact />
       <Footer />
       <WhatsAppButton />
-    </>
+    </div>
   );
 }
 
