@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section
       id="contacto"
-      className="py-24 bg-white"
+      className="py-24 bg-slate-950 text-white"
     >
       <div className="max-w-7xl mx-auto px-6 text-center">
 
@@ -10,7 +10,7 @@ export default function Contact() {
           Contáctenos
         </h2>
 
-        <p className="text-gray-600 mb-12">
+        <p className="text-gray-400 mb-12">
           Solicite su consulta jurídica hoy mismo
         </p>
 
@@ -19,23 +19,23 @@ export default function Contact() {
           <input
             type="text"
             placeholder="Nombre"
-            className="p-4 border rounded-lg"
+            className="p-4 bg-white/5 border border-white/10 text-white rounded-lg outline-none"
           />
 
           <input
             type="email"
             placeholder="Correo"
-            className="p-4 border rounded-lg"
+            className="p-4 bg-white/5 border border-white/10 text-white rounded-lg outline-none"
           />
 
           <textarea
             placeholder="Mensaje"
-            className="p-4 border rounded-lg h-40"
+            className="p-4 bg-white/5 border border-white/10 text-white rounded-lg h-40 outline-none"
           />
 
           <button
             type="submit"
-            className="bg-slate-900 text-white py-4 rounded-lg font-bold hover:bg-slate-800"
+            className="bg-yellow-500 text-black py-4 rounded-lg font-bold hover:scale-105 transition"
           >
             Enviar Mensaje
           </button>
