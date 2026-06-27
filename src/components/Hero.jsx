@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="inicio" className="pt-32 pb-24">
+<section id="inicio" data-aos="fade-up" className="pt-32 pb-24">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Hero principal */}

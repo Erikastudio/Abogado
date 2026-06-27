@@ -2,24 +2,31 @@ export default function WhyChooseUs() {
   const ventajas = [
     {
       titulo: "Atención Personalizada",
-      descripcion: "Cada caso recibe un análisis detallado y una estrategia jurídica adaptada a sus necesidades."
+      descripcion:
+        "Cada caso recibe un análisis detallado y una estrategia jurídica adaptada a sus necesidades.",
     },
     {
       titulo: "Confidencialidad",
-      descripcion: "Toda la información de nuestros clientes es tratada con absoluta reserva y profesionalismo."
+      descripcion:
+        "Toda la información de nuestros clientes es tratada con absoluta reserva y profesionalismo.",
     },
     {
       titulo: "Compromiso",
-      descripcion: "Acompañamos cada proceso legal con responsabilidad, transparencia y dedicación."
+      descripcion:
+        "Acompañamos cada proceso legal con responsabilidad, transparencia y dedicación.",
     },
     {
       titulo: "Experiencia",
-      descripcion: "Brindamos soluciones jurídicas eficientes basadas en el conocimiento y la práctica."
-    }
+      descripcion:
+        "Brindamos soluciones jurídicas eficientes basadas en el conocimiento y la práctica.",
+    },
   ];
 
   return (
-    <section className="bg-white py-24">
+    <section
+      data-aos="fade-left"
+      className="bg-white py-24"
+    >
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-5xl font-bold text-center text-slate-900 mb-4">

@@ -31,6 +31,7 @@ ${form.mensaje}`;
   return (
     <section
       id="contacto"
+      data-aos="fade-up"
       className="py-24 bg-slate-950 text-white"
     >
       <div className="max-w-7xl mx-auto px-6 text-center">
