@@ -2,7 +2,8 @@ export default function About() {
   return (
     <section
       id="nosotros"
-      className="bg-slate-900 text-white py-24"
+      data-aos="fade-right"
+      className="py-24 bg-slate-950"
     >
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
@@ -10,7 +11,7 @@ export default function About() {
           <img
             src="/fotoabogado.jpg"
             alt="Abogado"
-            className="rounded-2xl shadow-2xl"
+            className="rounded-2xl shadow-2xl border border-yellow-500/20"
           />
         </div>
 
@@ -24,38 +25,28 @@ export default function About() {
           </h2>
 
           <p className="text-gray-300 text-lg mb-8">
-            Nuestro despacho jurídico ofrece asesoría legal
-            personalizada, representación judicial y acompañamiento
-            integral para personas y empresas.
+            Nuestro despacho jurídico ofrece asesoría legal personalizada, representación judicial y acompañamiento integral para personas y empresas.
           </p>
 
           <div className="grid grid-cols-2 gap-6">
 
             <div>
-              <h3 className="text-4xl font-bold text-yellow-400">
-                10+
-              </h3>
+              <h3 className="text-4xl font-bold text-yellow-400">10+</h3>
               <p>Años de experiencia</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-yellow-400">
-                500+
-              </h3>
+              <h3 className="text-4xl font-bold text-yellow-400">500+</h3>
               <p>Casos atendidos</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-yellow-400">
-                95%
-              </h3>
+              <h3 className="text-4xl font-bold text-yellow-400">95%</h3>
               <p>Casos exitosos</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-yellow-400">
-                1000+
-              </h3>
+              <h3 className="text-4xl font-bold text-yellow-400">1000+</h3>
               <p>Clientes satisfechos</p>
             </div>
 
